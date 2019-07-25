@@ -2,7 +2,6 @@ import requests
 from supybot.commands import *
 import supybot.plugins as plugins
 import supybot.callbacks as callbacks
-import supybot.schedule as schedule
 import supybot.ircdb as ircdb
 import supybot.ircmsgs as ircmsgs
 import supybot.log as log
