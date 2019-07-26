@@ -1,11 +1,11 @@
 import requests
-from supybot.commands import *
-import supybot.plugins as plugins
-import supybot.callbacks as callbacks
-import supybot.ircdb as ircdb
-import supybot.ircmsgs as ircmsgs
-import supybot.log as log
+import string
 import supybot.conf as conf
+import supybot.utils as utils
+from supybot.commands import *
+import supybot.ircutils as ircutils
+import supybot.callbacks as callbacks
+
 
 def doggo(self, irc, msg, args):
     r = requests.get(url='https://random.dog/woof.json')
