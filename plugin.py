@@ -9,13 +9,13 @@ class Animals(callbacks.Plugin):
     def doggo(self, irc, msg, args):
         r = requests.get('https://random.dog/woof.json')
         dogURL = r.json()['url']
-        irc.reply("{}: {}" % (msg.nick, dogURL))
+        irc.reply("{}: {}".format(msg.nick, dogURL))
     doggo = wrap(doggo)
 
     def cat(self, irc, msg, args):
         r = requests.get('https://aws.random.cat/meow')
         catURL = r.json()['file']
-        irc.reply("{}: {}" % (msg.nick, catURL))
+        irc.reply("{}: {}".format(msg.nick, catURL))
     cat = wrap(cat)
     
     
