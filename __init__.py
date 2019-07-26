@@ -29,7 +29,7 @@
 ###
 
 """
-This is a DuckHunt game for supybot
+This is a random animal image searcher.
 """
 
 import supybot
@@ -41,14 +41,14 @@ from imp import reload
 __version__ = ""
 
 # XXX Replace this with an appropriate author or supybot.Author instance.
-__author__ = supybot.Author('Matthias Meusburger', 'veggiematts', '')
+__author__ = supybot.Author('Alice Smith', 'fruitymang0', '')
 
 # This is a dictionary mapping supybot.Author instances to lists of
 # contributions.
 __contributors__ = {}
 
 # This is a url where the most recent plugin package can be downloaded.
-__url__ = 'https://github.com/veggiematts/supybot-duckhunt' 
+__url__ = 'https://github.com/fruitymang0/animals' 
 
 from . import config
 from . import plugin
