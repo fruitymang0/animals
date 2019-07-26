@@ -18,6 +18,7 @@ class Animals(callbacks.Plugin):
         catURL = r.json()['file']
         irc.reply("%s: %s" % (msg.nick, catURL))
     cat = wrap(cat)
+
     
 Class = Animals
 
