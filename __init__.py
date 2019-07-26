@@ -1,5 +1,5 @@
 """
-Pulls random animal pictures of the internet.
+Pulls random animal pictures off the internet.
 """
 
 import supybot
