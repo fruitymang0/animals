@@ -19,8 +19,8 @@ __contributors__ = {}
 # This is a url where the most recent plugin package can be downloaded.
 __url__ = '' # 'https://github.com/fruitymang0/animals'
 
-from . import config
-from . import plugin
+import config
+import plugin
 from imp import reload
 reload(plugin) # In case we're being reloaded.
 # Add more reloads here if you add third-party modules and want them to be
